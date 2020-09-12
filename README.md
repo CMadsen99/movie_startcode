@@ -1,16 +1,49 @@
 [![Build Status](https://travis-ci.com/CMadsen99/movie_startcode.svg?branch=master)](https://travis-ci.com/CMadsen99/movie_startcode)
 
-*This project is meant as start code for projects and exercises given in Flow-1+2 at http://cphbusiness.dk in the Study Program "AP degree in Computer Science"*
+SP3 Exercises
 
-*Projects which are expected to use this start-code are projects that require all, or most of the following technologies:*
- - *JPA and REST*
-- *Testing, including database test*
-- *Testing, including tests of REST-API's*
-- *CI and CONTINUOUS DELIVERY*
 
-### Preconditions
-*In order to use this code, you should have a local developer setup + a "matching" droplet on Digital Ocean as described in the 3. semester guidelines* 
-# Getting Started
+Monday:
 
-This document explains how to use this code (build, test and deploy), locally with maven, and remotely with maven controlled by Travis
- - [How to use](https://docs.google.com/document/d/1K6s6Tt65bzB8bCSE_NUE8alJrLRNTKCwax3GEm4OjOE/edit?usp=sharing)
+All exercises done
+
+Links to a few of the URLs:
+
+Get all movies: https://christianmadsen99.dk/devops-starter/api/movies/all
+
+Get count of movies: https://christianmadsen99.dk/devops-starter/api/movies/count
+
+Get movie by title: https://christianmadsen99.dk/devops-starter/api/movies/title/godfather
+
+Get movie by director: https://christianmadsen99.dk/devops-starter/api/movies/director/christopher%20nolan
+
+Get movie by year: https://christianmadsen99.dk/devops-starter/api/movies/year/1994
+
+Get movie by id: https://christianmadsen99.dk/devops-starter/api/movies/id/2
+
+
+Tuesday:
+
+All exercises done
+
+Can be found under: movie_startcode/src/test/java/rest/
+
+
+Wednesday:
+
+The JavaScript Array - All exercises done
+
+Can be found at: https://github.com/CMadsen99/js-day1/blob/master/src/js_array.js
+
+JavaScript Day-1 - All but the red exercises done (ran out of time)
+
+Can be found at: https://github.com/CMadsen99/js-day1/blob/master/src/js-day1.js
+
+
+Thursday:
+
+Dom Manipulation and Events - All exercises done
+
+Can be found under: movie_startcode/src/main/webapp/Dom-Manipulation-and-Events/
+
+Getting Started with the fetch-API - Not done
