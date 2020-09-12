@@ -3,8 +3,84 @@
     <head>
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            table, td, th {
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
-        <h1>Up and Running</h1>
+        <h1>Movie API</h1>
+        <h3>Alle film</h3>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Titel</th>
+                <th>Instruktør</th>
+                <th>År</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Avatar</td>
+                <td>James Cameron</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Black Panther</td>
+                <td>Ryan Coogler</td>
+                <td>2018</td>
+            </tr>
+        </table>
+        <form id='getAllMovies'>
+            <input type="submit" id="all" value="Fetch all movies">
+        </form>
+        <br>
+        <table>
+            <tr>
+                <th>Id</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Titel</th>
+                <td>Avatar</td>
+            </tr>
+            <tr>
+                <th>Instruktør</th>
+                <td>James Cameron</td>
+            </tr>
+            <tr>
+                <th>År</th>
+                <td>2009</td>
+            </tr>
+        </table>
+        <form id='getMovieId'>
+            <input type="number" id="typeNumber" name="typeNumber">
+            <input type="submit" id="number" value="Fetch movie by id">
+        </form>
+        <br>
+        <h2>Beskrivelse</h2>
+        <p></p>
+        <br>
+        <h2>Links</h2>
+        <h3>Torsdags exercises</h3>
+        <h4><a href="https://christianmadsen99.dk/devops-starter/Dom-Manipulation-and-Events/ex1.html">Exercise 1</a></h4>
+        <h4><a href="https://christianmadsen99.dk/devops-starter/Dom-Manipulation-and-Events/ex2.html">Exercise 2</a></h4>
+        <h4><a href="https://christianmadsen99.dk/devops-starter/Dom-Manipulation-and-Events/ex3.html">Exercise 3</a></h4>
+        <h4><a href="https://christianmadsen99.dk/devops-starter/Dom-Manipulation-and-Events/ex4.html">Exercise 4</a></h4>
+        <h4><a href="https://christianmadsen99.dk/devops-starter/Dom-Manipulation-and-Events/ex5.html">Exercise 5</a></h4>
+        <br>
+        <h3>Git-repos</h3>
+        <h4><a href="https://github.com/CMadsen99/movie_startcode">Movie startcode</a></h4>
+        <h4><a href="https://github.com/CMadsen99/js-day1/blob/master/src/js_array.js">The JavaScript Array</a></h4>
+        <h4><a href="https://github.com/CMadsen99/js-day1/blob/master/src/js-day1.js">JavaScript Day-1</a></h4>
+        <br>
+        <h3>Travis</h3>
+        <h4><a href="https://travis-ci.com/CMadsen99/movie_startcode.svg?branch=master">Travis status page</a></h4>
+        
     </body>
 </html>
