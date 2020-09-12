@@ -8,11 +8,13 @@ public class MovieDTO {
     private String title;
     private String director;
     private int year;
+    private long id;
 
     public MovieDTO(Movie movie) {
         this.title = movie.getTitle();
         this.director = movie.getDirector();
         this.year = movie.getYear();
+        this.id = movie.getId();
     }
 
     public String getTitle() {
@@ -38,6 +40,15 @@ public class MovieDTO {
     public void setYear(int year) {
         this.year = year;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+    
     
     
 }
